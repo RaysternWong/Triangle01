@@ -1,0 +1,25 @@
+---
+:source:
+  :path: test
+  :file: test_Triangle.c
+:successes:
+- :test: test_getTriangleName_given_2_2_3_should_return_isoscales
+  :line: 10
+  :message: ''
+- :test: test_getTriangleName_given_2_3_3_should_return_isoscales
+  :line: 17
+  :message: ''
+- :test: test_getTriangleName_given_3_2_3_should_return_isoscales
+  :line: 24
+  :message: ''
+- :test: test_getTriangleName_given_1_2_3_should_return_scalene
+  :line: 32
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
